@@ -39,9 +39,9 @@ class AddCard extends Component {
         {this.state.showForm && 
           <>
             <form className="addform" onSubmit={this.submitForm}>
-              <input type="text" ref={el => this.title = el} placeholder="Title..." />
-            <input type="text" ref={el => this.sourceText = el} placeholder="SourceText..." />
-              <input type="text" ref={el => this.translation = el} placeholder="Translation..." />
+              <input type="text" ref={el => this.title = el} placeholder="Title..." required />
+              <input type="text" ref={el => this.sourceText = el} placeholder="SourceText..." required />
+              <input type="text" ref={el => this.translation = el} placeholder="Translation..." required/>
               <select ref={el => this.color = el}>
                 <option selected value="">Color</option>
                 <option value="yellow">Yellow</option>

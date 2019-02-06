@@ -1,17 +1,21 @@
 .add-btn {
-  width: 150px;
-  height: 50px;
-  background-color: rgb(255, 206, 206);
+  width: 110px;
+  height: 35px;
+  background-color: #f33162;
   border: none;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1em;
   outline: none;
-  margin: 20px;
+  margin-left: 20px;
+  transition: background-color .4s ease-in-out;
 }
 
 .add-btn:hover {
-  background-color: rgb(255, 174, 174);
+  background-color: rgb(22, 22, 22);
+  color: #fff;
   cursor: pointer;
+  transition: background-color .4s ease-in-out;
 }
 
 .add-btn2 {
@@ -27,8 +31,9 @@
   width: 300px;
   margin: 20px;
   flex-flow: column wrap;
-  input, select {
+  input, select, option {
     width: 100%;
+    height: 1.5em;
     margin-bottom: 10px;
     line-height: 1.2em;
   }
