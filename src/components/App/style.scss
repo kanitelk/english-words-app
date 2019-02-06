@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  margin-top: 20px;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-line {
+  color: #05abf6;
+  margin-left: 20px;
+}
+
+.date {
+  display: block;
+  text-align: center;
+  line-height: 0.3em;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  background-color: #05abf6;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.5);
+}

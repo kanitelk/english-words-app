@@ -1,0 +1,33 @@
+$defaultColor: #e1e1e1;
+
+.Card {
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  background-color: #e1e1e1;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.5);
+  user-select: none;
+}
+
+.Card:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  transition: background-color .3s ease-out;
+}
+
+.yellow {
+  background-color: #ffff3c;
+}
+
+.aqua {
+  background-color: #36f8c7;
+}
+
+.red {
+  background-color: #f33162;
+}
